@@ -1,0 +1,165 @@
+#add-config {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 1em;
+    background-color: #4f9672;
+    text-align: center;
+    float: right;
+    margin-right: 1em;
+}
+
+#overlay-box {
+    background-color: black;
+    border-radius: 1em;
+    position: absolute;
+    border-width: 0.5em;
+    border-style: solid;
+    text-align: left;
+}
+
+#overlay-box-internal {
+    padding: 3em;
+}
+
+#overlay-box h2 {
+    font-weight: normal;
+    font-size: 400%;
+    margin: 0;
+}
+
+.health {
+    font-size: 200%;
+    padding-bottom: 2%;
+}
+
+.specie-display-description {
+    padding-bottom: 3%;
+}
+
+.specie-display-health {
+    font-size: 20px;
+}
+
+.specie-display-health-img {
+    height: 20px;
+}
+
+.specie-display-modifier-positive {
+    fill: green;
+}
+
+.specie-display-modifier-positive text {
+    fill: green;
+}
+
+.specie-display-modifier-negative {
+    fill: red;
+}
+
+.specie-display-modifier img {
+    width: 100%;
+}
+
+.specie-display-modifier-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.specie-display-modifier-icon svg {
+    width: 20px;
+    height: 20px;
+}
+
+@keyframes grow-changelogs {
+    from {
+        height: 2em;
+        width: 10%;
+    }
+    to {
+        height: 35em;
+        width: 70%;
+    }
+}
+
+@keyframes shrink-changelogs {
+    from {
+        height: 35em;
+        width: 70%;
+    }
+    to {
+        height: 2em;
+        width: 10%;
+    }
+}
+
+.changelogs-collapsed {
+    height: 2em;
+    width: 8em;
+}
+
+.changelogs-collapsing {
+    animation-name: shrink-changelogs;
+    animation-duration: 500ms;
+}
+
+.changelogs-expanded {
+    height: 35em;
+    width: 70%;
+}
+
+.changelogs-expanding {
+    animation-name: grow-changelogs;
+    animation-duration: 500ms;
+}
+
+#changelogs {
+    background-color: #1d1d1d;
+    top: 5em;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#changelogs-button {
+    background-color: #141414;
+    border-radius: 10px;
+    height: 2em;
+    width: 8em;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    cursor: pointer;
+}
+
+#changelogs-button span {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+#changelogs-container {
+    height: 28em;
+    margin-top: 3em;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    overflow: scroll;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none;
+}
+
+#changelogs-container::-webkit-scrollbar {
+    display: none;
+}
+
+.changelog {
+    margin-top: 20px;
+}
+
+.changelog-content {
+    margin-left: 20px;
+}

@@ -1,0 +1,13 @@
+#admin {
+    display: grid;
+    gap: 50px;
+}
+
+#admin button {
+    width: 10em;
+    height: 5em;
+}
+
+#config-create-button {
+    margin-top: 20px;
+}

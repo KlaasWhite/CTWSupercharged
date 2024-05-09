@@ -1,0 +1,14 @@
+#specie-display {
+    background-color: #1a1a1a;
+    padding: 2em;
+    border-radius: 50px;
+}
+
+#specie-display tr {
+    width: 50%;
+}
+
+#specie-display img {
+    padding: 0.5em;
+    width: 5em;
+}

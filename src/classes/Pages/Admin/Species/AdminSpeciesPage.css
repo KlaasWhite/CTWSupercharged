@@ -1,0 +1,58 @@
+#admin-species-overlay-box {
+    background-color: black;
+    border-radius: 1em;
+    position: absolute;
+    border-style: solid;
+    border-width: 0;
+    text-align: left;
+    font-weight: normal;
+    font-size: 200%;
+}
+
+#admin-species-overlay-box-internal {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+#admin-specie-display .specie-display-item {
+    cursor: pointer;
+}
+
+#admin-specie-new {
+    width: 15em;
+    height: 4em;
+    margin-top: 2em;
+    font-size: 20px;
+}
+
+#admin-species-edit-edit-table {
+    background-color: #1a1a1a;
+}
+
+#admin-species-edit-description {
+    height: 10em;
+}
+
+#admin-species-edit-submit {
+    width: 15em;
+    height: 4em;
+}
+
+#admin-species-edit-negatives-add {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#admin-species-edit-positives-add {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+#admin-species-edit-positives {
+    display: block;
+}

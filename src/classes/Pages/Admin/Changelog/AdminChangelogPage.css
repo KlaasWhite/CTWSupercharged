@@ -1,0 +1,68 @@
+.admin-changelog-item-container {
+    display: block;
+    height: 3em;
+    padding-top: 1em;
+}
+
+.admin-changelog-item {
+    display: grid;
+    width: 50em;
+    height: 3em;
+    background-color: black;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.admin-changelog-item-title {
+    padding-left: 1em;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.admin-changelog-item-garbage {
+    padding-right: 1em;
+    grid-column: 2;
+    grid-row: 1;
+    background-color: red;
+    width: 7em;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}
+
+.admin-changelog-item span {
+    position: absolute;
+    transform: translate(0, 50%);
+}
+
+.admin-changelog-item-garbage span {
+    position: absolute;
+    transform: translate(-50%, 50%);
+}
+
+#admin-changelog-new {
+    display: block;
+    margin-bottom: 5em;
+    height: 5em;
+    width: 50%;
+    background-color: black;
+    border-radius: 20px;
+    transform: translate(50%, 0);
+    cursor: pointer;
+}
+
+#admin-changelog-new-text {
+    font-size: 30px;
+    transform: translate(0, 40%);
+}
+
+#admin-changelog-create-textarea {
+    height: 80%;
+    width: 100%;
+}
+
+#admin-changelog-create-submit {
+    margin-top: 20px;
+    height: 50px;
+    width: 300px;
+}
