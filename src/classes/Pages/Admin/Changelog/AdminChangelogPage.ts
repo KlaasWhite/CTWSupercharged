@@ -2,7 +2,6 @@ import Page from "../../Page";
 
 import "../Admin.css";
 import "./AdminChangelogPage.css";
-import AdminCreateNewConfigPage from "../Config/AdminCreateNewConfigPage";
 import AdminCreateChangelogPage from "./AdminCreateChangelogPage";
 
 export default class AdminChangelogPage extends Page {
